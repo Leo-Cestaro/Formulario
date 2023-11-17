@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio do Formulálio</title>
+    <link rel="stylesheet" href="Desafio_formulario.css">
+</head>
+<body>
+    <form action="" method="post" autocomplete="off">
+        <fieldset>
+        <legend>Formulário de contato</legend>
+
+        <label for="name">Seu nome</label>
+        <input type="text" id="name" name="name" placeholder="Digite seu nome completo" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite um email válido" required>
+
+        <label for="subject">Assunto</label>
+        <input type="text" name="subject" id="subject">
+
+        <label for="msg">Mensagem</label>
+        <textarea name="msg" id="msg"  rows="7" maxlength="1000" minlength="20" required placeholder="Faça um comentário"></textarea>
+         
+        <button type="submit" value="Enviar" class="btn">Enviar</button>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
